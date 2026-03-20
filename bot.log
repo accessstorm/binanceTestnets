@@ -32,3 +32,11 @@
 2026-03-20 16:33:58 | INFO     | tradingbot | Binance testnet client initialised successfully.
 2026-03-20 16:33:58 | INFO     | tradingbot | Placing LIMIT order → symbol=BTCUSDT side=SELL quantity=0.002 price=75000 tif=GTC
 2026-03-20 16:33:58 | INFO     | tradingbot | LIMIT order placed successfully → orderId=12896718225 status=NEW
+2026-03-20 17:09:18 | DEBUG    | tradingbot | Order type validated: MARKET
+2026-03-20 17:09:18 | DEBUG    | tradingbot | Symbol validated: BTCUSDT
+2026-03-20 17:09:18 | DEBUG    | tradingbot | Side validated: BUY
+2026-03-20 17:09:18 | DEBUG    | tradingbot | Quantity validated: 0.002
+2026-03-20 17:09:18 | INFO     | tradingbot | Initialising Binance client → testnet: https://testnet.binancefuture.com
+2026-03-20 17:09:18 | INFO     | tradingbot | Binance testnet client initialised successfully.
+2026-03-20 17:09:18 | INFO     | tradingbot | Placing MARKET order → symbol=BTCUSDT side=BUY quantity=0.002
+2026-03-20 17:09:19 | INFO     | tradingbot | MARKET order placed successfully → orderId=12897158323 status=NEW

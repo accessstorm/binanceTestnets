@@ -168,3 +168,11 @@ The file rotates at **5 MB** and keeps **3 backups** (`bot.log.1`, `bot.log.2`, 
 | **Error surfacing** | `BinanceAPIException` and `BinanceRequestException` are caught at every layer and re-raised with human-readable messages; full stack traces go to `bot.log` only. |
 | **Python version** | Requires Python ≥ 3.10 for `match`/`case` readiness and `X \| Y` union type hints (though the current code uses `Optional` for ≥ 3.9 compatibility). |
 | **No live trading** | The `python-binance` `testnet=True` flag is set and `client.FUTURES_URL` is overridden for belt-and-suspenders testnet safety. |
+
+
+
+🖥️ Web User Interface
+The bot now includes a lightweight Streamlit web interface for easier order placement.
+
+To launch the Web UI:
+streamlit run ui.py
